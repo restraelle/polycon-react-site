@@ -16,31 +16,19 @@ export default class Home extends React.Component {
     render() {
         return (
             <React.Fragment>
-                <HeroSlider>
+                <div class="notice">
+                    <div class="notice-content">
+                        <i class="fas fa-exclamation-triangle"></i>
+                        <h1>Important Message</h1>
+                        <p>First, we'd like to take a moment to thank everyone who has purchased or received a ticket to attend this years FLPolyCon event. It means a lot to see so many members of our community coming together to host a truly amazing event.</p>
 
-                </HeroSlider>
-                
-                <div class="section">
-                    <div class="content">
-                        {/* <h4 class="text-center"></h4> */}
-                        <PostThumbnail image={ImageCallout1} title="Food Trucks">
-                        
-                        <p>This is not the typical food sold at conventions. You can expect fun, international lunch options such as Hawaiian, Mexican, FIlipino, American, Thai, Venezuelan, and Mediterranean. Come enjoy this refreshing twist on convention food.</p>
-                        </PostThumbnail>
-                        <PostThumbnail image={ImageCallout3} title="Merchant Guild">
-                        <p>Stock up on cool, unique items and handmade creations including props, specialty snacks, figures, 	cosplay apparel, art prints, plushies, jewelry, games, crafts, and more.</p>
-                        </PostThumbnail>
-                        <PostThumbnail image={ImageCallout2} title="Arcade Room">
-                            <p>Check out our several game rooms such as our Fighting Game Room, Rhythm Game Room, the classic and vintage games in our Arcade Machine Room, and our plentiful collection of board games in the Tabletop Game Room.</p>
-                        </PostThumbnail>
-                        <PostThumbnail image={ImageCallout4} title="After Party">
-                            <p>You know what's cooler than glowsticks? LED light sticks and flashing sunglasses! Enjoy free food and drinks, swing around free LED swag, and jam to geeky music mixes by famous artists.</p>
-                        </PostThumbnail>
+                        <p>However, following a mandated order of remote operations for the public state universities citing health concerns, we have decided that it is in our best interest to cancel FLPolyCon 2020, effective immediately.  We are worried about having such a large gathering of people in an enclosed public space, with the ongoing spread of COVID-19.</p>
+
+                        <p>Following this email, all tickets will be refunded. If you have any questions, please don't hesitate to email us at <a href="mailto:administration@flpolycon.org">administration@flpolycon.org</a>. Stay safe and remember to wash your hands!</p>
+
+                        <p>Sincerely,</p>
+                        <p>The FLPolyCon 2020 Staff Team</p>
                     </div>
-                    <div className="clearfix"></div>
-                </div>
-                <div className="section text-center">
-                    <h3>More info coming soon!</h3>
                 </div>
             </React.Fragment>
         );

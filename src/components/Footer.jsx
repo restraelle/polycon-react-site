@@ -22,9 +22,9 @@ export default class Footer extends React.Component {
                         <ul class="footer-links" style={{"list-style": "none", "margin": "0", "text-decoration": "none"}}>
 
                             <li><Link to="/">Home</Link></li>
-                            <li><Link to="/tickets">Tickets</Link></li>
+                            {/* <li><Link to="/tickets">Tickets</Link></li>
                             <li><Link to="/applications">Applications</Link></li>
-                            <li><Link to="/information">Information</Link></li>
+                            <li><Link to="/information">Information</Link></li> */}
                             <li><Link to="/contact">Contact</Link></li>
                         </ul>
                     </div>

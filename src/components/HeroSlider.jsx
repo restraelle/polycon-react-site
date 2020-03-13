@@ -32,8 +32,8 @@ export default class HeroSlider extends React.Component {
                 <div className="hero-slider-static-box">
                     <img src={ImageEmblem} alt=""/>
                     <h3>Saturday, April 4th, 2020</h3>
-                    <h5>Applications are now open!</h5>
-                    <Link to="/applications" className="button">Check it out!</Link>
+                    <h5>Get your tickets now!</h5>
+                    <Link to="/tickets" className="button">Buy Tickets</Link>
                 </div>
                 <Slider style={{zIndex: "-1"}} {...settings}>
                     <div className="hero-slider-slide">

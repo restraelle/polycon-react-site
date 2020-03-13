@@ -7,7 +7,7 @@ export default class Maps extends React.Component {
     render() {
         return (
             <Page title="Maps">
-                <p>Fill in this page here.</p>
+                <p>Coming soon!</p>
             </Page>
         );
     }

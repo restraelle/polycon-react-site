@@ -9,6 +9,26 @@ export default class FrequentlyAskedQuestions extends React.Component {
     render() {
         return (
             <Page title="Frequently Asked Questions" image={ImageDeLorean}>
+                <div className="desktop-quarter mobile-whole right">
+                    <div class="jump-board">
+                        <h3>Table of Contents</h3>
+                        <ul>
+                            <li><a href="#1">Where is the FLPolyCon located?</a></li>
+                            <li><a href="#2">Is there free parking?</a></li>
+                            <li><a href="#3">How much is a ticket to FLPolyCon?</a></li>
+                            <li><a href="#4">Why can’t I use cash to pay for my ticket at the door?</a></li>
+                            <li><a href="#5">Can I refund my ticket?</a></li>
+                            <li><a href="#6">What types of payment can I use for pre-registration?</a></li>
+                            <li><a href="#7">Do I need a parent/guardian with me?</a></li>
+                            <li><a href="#8">How can I host a Panel/Workshop/Event?</a></li>
+                            <li><a href="#9">Can I select where/when I can be placed as a Panel/Workshop/Event?</a></li>
+                            <li><a href="#10">How can I become a Merchant?</a></li>
+                            <li><a href="#11">Can I select where I can be placed as a Merchant?</a></li>
+                            <li><a href="#12">Will my Panel/Workshop/Event show up on the website and in the FLPolyCon guide?</a></li>
+                            <li><a href="#13">I have a question that is not answered here.</a></li>
+                        </ul>
+                    </div>
+                </div>
                 <div className="desktop-three-quarters mobile-whole left info">
                     <div className="info-item">
                         <a class="anchor" id="1"></a>
@@ -22,7 +42,7 @@ export default class FrequentlyAskedQuestions extends React.Component {
                     <div className="info-item">
                         <a class="anchor" id="2"></a>
                         <h4>Is there free parking?</h4>
-                        <p>The price of parking is included with your event pass. Please see our parking map for instructions on how to navigate to the respective parking lots. On the day of the event, please follow the event signs that will direct you to the correct location.</p>
+                        <p>Unfortunately, we cannot offer included parking this year due to changes within the University. Temporary parking passes are $5 and can be acquired at <a href="https://bit.ly/2sIjAcE">this link.</a></p>
                     </div>
 
 
@@ -109,26 +129,7 @@ export default class FrequentlyAskedQuestions extends React.Component {
                         <p>Please see the Contact Page or e-mail <b>support@flpolycon.org</b> on contacting the respective department for your needs.</p>
                     </div>
                 </div>
-                <div className="desktop-quarter mobile-whole right">
-                    <div class="jump-board">
-                        <h3>Table of Contents</h3>
-                        <ul>
-                            <li><a href="#1">Where is the FLPolyCon located?</a></li>
-                            <li><a href="#2">Is there free parking?</a></li>
-                            <li><a href="#3">How much is a ticket to FLPolyCon?</a></li>
-                            <li><a href="#4">Why can’t I use cash to pay for my ticket at the door?</a></li>
-                            <li><a href="#5">Can I refund my ticket?</a></li>
-                            <li><a href="#6">What types of payment can I use for pre-registration?</a></li>
-                            <li><a href="#7">Do I need a parent/guardian with me?</a></li>
-                            <li><a href="#8">How can I host a Panel/Workshop/Event?</a></li>
-                            <li><a href="#9">Can I select where/when I can be placed as a Panel/Workshop/Event?</a></li>
-                            <li><a href="#10">How can I become a Merchant?</a></li>
-                            <li><a href="#11">Can I select where I can be placed as a Merchant?</a></li>
-                            <li><a href="#12">Will my Panel/Workshop/Event show up on the website and in the FLPolyCon guide?</a></li>
-                            <li><a href="#13">I have a question that is not answered here.</a></li>
-                        </ul>
-                    </div>
-                </div>
+                
             </Page>
         );
     }
