@@ -24,7 +24,7 @@ export default class Home extends React.Component {
 
                         <p>However, following a mandated order of remote operations for the public state universities citing health concerns, we have decided that it is in our best interest to cancel FLPolyCon 2020, effective immediately.  We are worried about having such a large gathering of people in an enclosed public space, with the ongoing spread of COVID-19.</p>
 
-                        <p>Following this email, all tickets will be refunded. If you have any questions, please don't hesitate to email us at <a href="mailto:administration@flpolycon.org">administration@flpolycon.org</a>. Stay safe and remember to wash your hands!</p>
+                        <p>Following this message, all tickets will be refunded. If you have any questions, please don't hesitate to email us at <a href="mailto:administration@flpolycon.org">administration@flpolycon.org</a>. Stay safe and remember to wash your hands!</p>
 
                         <p>Sincerely,</p>
                         <p>The FLPolyCon 2020 Staff Team</p>
