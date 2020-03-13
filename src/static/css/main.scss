@@ -1249,6 +1249,7 @@ body {
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
+        box-sizing: border-box;
         p:last-child {
             margin: 0;
         }
@@ -1278,6 +1279,20 @@ body {
         box-sizing: border-box;
     }
 
+    .notice {
+        height: unset;
+        .notice-content {
+            position: relative;
+            top: unset;
+            left: unset;
+            transform: unset;
+            padding-top: 80px;
+            i {
+                top: 100px;
+            }
+        }
+    }
+    
     .background {
         position: fixed;
     }
